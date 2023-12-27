@@ -24,7 +24,7 @@ publishing {
   repositories {
     maven {
       name = "GitHubPackages"
-      url = "https://maven.pkg.github.com/devopshint/ads-gradle-package"
+      url = "https://maven.pkg.github.com/nguyentruongnvt72/ads-gradle-package"
       credentials {
         username = System.getenv("GITHUB_ACTOR")
         password = System.getenv("GITHUB_TOKEN")
